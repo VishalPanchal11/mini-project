@@ -8,47 +8,47 @@
     <link rel="stylesheet" href="feedback.css">
 </head>
 <body>
-  <h2 class="heading">Please give your valueable feedback</h2> 
+  <section id="formsec">
+  <div><h2 class="heading">Your FEEDBACK is important for us!!</h2></div>
   <br>
   <form action="" method="post">
     <div class="form">
-    <div class="exp">
-      <p class="experience">How do you rate your overall experience?</p>
-      <input type="radio" name="rate" value="bad">Bad
-      <input type="radio" name="rate" value="average">Average
-      <input type="radio" name="rate" value="good">Good
-      <input type="radio" name="rate" value="good">could be better
+      <div class="inputs">
+      <div><h4 class="experience">How do you rate your overall experience?</h4></div>
+      <div class="exp">
+        <input type="radio" name="rate" value="bad">Bad
+        <input type="radio" name="rate" value="average">Average
+        <input type="radio" name="rate" value="good">Good
+        <input type="radio" name="rate" value="good">Excellent
+    </div>
+  </div>
+    <br>
+    <div class="inputs">
+      <label for="formtxt">Username:</label>
+      <input type="text" class="txt" id="formtxt" placeholder="Enter Your Name">
     </div>
     <br>
-    <div class="username">
-      <label>Username:</label>
-      <input type="text" name="myusername" class="txt">
+    <div class="inputs">
+      <label for="formemail">Email:</label>
+      <input type="email" class="txt" id="formemail" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">
     </div>
     <br>
-    <div class="email">
-      <label>Email:</label>
-      <input type="email" name="myemail" class="txt">
+    <div class="inputs">   
+      <label for="formtxt">Mobile No.(Optional):</label>
+        <input type="text" class="txt" id="formtxt">
     </div>
     <br>
-    <div class="age">
-      <label>Age:</label>
-      <input type="number" name="myage" class="txt">
+    <div class="inputs">
+      <label for="FormTextarea">Could you describe your issue or suggestion?</label>
+     <textarea class="txt" id="FormTextarea" rows="3"></textarea>
     </div>
     <br>
-    <div class="mobno">   
-      <label>Mobile no.:</label>
-      <input type="text" name="mobile no." class="txt">
-    </div>
-    <br>
-    <div class="para">
-      <label>Could you describe your issue or suggestion?</label>
-      <textarea class="txtarea"></textarea>
-    </div>
-    <br>
-    <div class="summit">     
-      <button type="submit" class="btn">Submit</button>
-    </div>
+    <div class="submit">
+    <button type="submit" class="btn">SUMMIT</button>
+  </div>
   </div> 
   </form>
+</section>
 </body>
 </html>

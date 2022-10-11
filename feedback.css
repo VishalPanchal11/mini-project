@@ -6,13 +6,15 @@ background-size: cover;
 
 .txt
 {
-width: 400px;
-height: 25px;
+width: 300px;
+height: 30px;
 border-radius: 6px;
+
 
 }
 .form{
-     top:50%;
+    
+     top:55%;
     left:50%;
     transform:translate(-50%,-50%);
     position:absolute;
@@ -20,14 +22,26 @@ border-radius: 6px;
     padding-right:200px;
 }
 .heading{
-     top:0%;
+     top:05%;
     left:50%;
     transform:translate(-50%,-50%);
     position:absolute;
 }
 .experience{
     text-align: center;
-    size: 100px;
-    position: ab;
 }
-   
+
+.inputs{
+padding:5px;
+    
+}
+.btn{
+    border-color: blue;
+    color: black;
+}
+.btn:hover{
+    border-color: black;
+    color: blue;
+    background-color: aqua;
+}
+
