@@ -78,15 +78,18 @@ body{
 {
     color:var(--color-error);
     border-color: var(--color-error);
+    display: flex;
+    justify-content: space-between;
 }
 .form__input--error-message
 {  
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     font-size: 0.85rem;
     color: var(--color-error);
 }
 .form__button
-{ 
+{   
+   
     width: 100%;
     padding: 1rem 2rem;
     font-weight: bold;
@@ -95,7 +98,9 @@ body{
     border: none;
     cursor: pointer;
     background: var(--color-primary);  
+    margin-top: 1rem;
 }
+
 .form__button :hover
 {
     background: var(--color-primary-dark);
