@@ -1,0 +1,19 @@
+.please
+{
+    color: rgb(155, 38, 77);
+    margin-top: 15rem;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background: url('pleasesign.jpg');
+
+}
+.btn
+{
+    height: 3.5rem;
+    width: 4rem;
+}
+.bk
+{
+    background: url('animeshopping.jpg');
+}

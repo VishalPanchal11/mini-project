@@ -1,0 +1,60 @@
+body{
+    background:lightpink;
+}
+
+.position1{
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+
+.position2{
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+
+.looks{
+    font-size: large;
+    font-style: arial;
+    background:pink;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width:280px;
+    outline: none;
+}
+
+::-webkit-file-upload-button{
+    font-size: large ;
+    color: black;
+    background: whitesmoke;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px black;
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover{
+    color: white  ;
+    background: black;
+}
+
+.summit{
+    color: blue;
+    background: skyblue;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    border: 1px solid blue;
+}
+
+.summit:hover{
+    color: white;
+    background: blue;
+}

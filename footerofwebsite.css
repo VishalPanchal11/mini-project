@@ -1,0 +1,111 @@
+/*importing icons*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*full page*/
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*in order to stick to bottom*/
+body{
+    min-height: 200vh;
+}
+.footer{
+    position: sticky;
+    top: 100%;
+}
+
+/*footerbox*/
+.container{
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background: pink;
+    padding: 15px ;
+    padding-bottom: 0;
+}
+
+/*company , help*/
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    background-color: gray;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+.footer-col{
+    align-items: center;
+    width: 33%;
+    padding-right:15px;
+    padding-left: 150px;
+}
+.footer-col ul{
+    padding-top: 12px;
+    list-style-type: none;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    display: block;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: brown;
+    padding-left: 10px;
+}
+
+/*contact us*/
+
+.footer-col .sociallinks a{
+    display: inline-block;
+    padding-top: 23px;
+    width: 70px;
+    background-color: pink;
+    text-align: center;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    transition: all 0.5s ease;
+}
+.footer-col .sociallinks a:hover{
+   color: blue;
+   background-color: skyblue;
+}
+@media(max-width:767){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

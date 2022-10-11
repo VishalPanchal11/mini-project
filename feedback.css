@@ -1,0 +1,16 @@
+body
+{
+background-color: pink;
+background-size: cover;
+}
+
+.txt
+{
+width: 400px;
+height: 50px;
+border-radius: 8px;
+}
+.form{
+    display: flex;
+}
+
