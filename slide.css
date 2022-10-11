@@ -1,45 +1,13 @@
-.sec-area
-{
-   width: 300px;
-   height: 250px;
-   padding-left: 30px;
-   padding-top: 1rem;
-   color: rgb(22, 10, 91);
-
-}
-#image2{
-    width: 500px;
-    max-width: 100%;
-    height: auto;
-}
-.sec-area .head
-{
-    font-size: 5rem;
-}
-
-main
-{
-    min-height: 100vh;
-    display: flex;
-    align-items:flex-start;
-    justify-content: left;
-    background-image: ('./dea2.jpg');
-    background-position: center;
-    background-size: 150px;
-    width: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-}
 #titlebg
 {
     width: 300px;
-    height: 250px;
+  
     padding-left: 30px;
     padding-top: 1rem;
-    color: rgb(22, 10, 91);
+  
     font-size: 3rem;
 }
-image
+.image
 {
     height: auto;
 }
