@@ -1,21 +1,44 @@
 .titlebg
 {
+   
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 1rem;
-    height: 200vh;
-    width: 250vh;
-    font-size: 3rem;
-    background-image: url('./dea23.jpg');
-    background-size: cover; 
+    height: 59vh;
+    width: 104vh;
+    background-image: url('./purple.jpg');
+    background-size: 100%; 
     max-width: 100%;
     max-height: 100%;  
+   
+}
+.welcome{
+    margin: 0px;
+}
+.titlebg1
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1rem;
+    height: 59vh;
+    width: 105vh;
+    background-image: url('./shinobu.jpg');
+    background-size: 100%; 
+    max-width: 100%;
+    max-height: 100%;  
+  
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
 }
 .head
 {
-    width: 400px;
+   padding-top: 30px;
     font-family: sans-serif;
-    color: palevioletred;
-    font-size: 70px;  
+    color: white;
+    font-size: 66px;  
 }
 
 .para1,.para2
