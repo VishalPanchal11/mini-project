@@ -1,9 +1,5 @@
 .titlebg
 {
-   
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 1rem;
     height: 59vh;
     width: 104vh;
     background-image: url('./purple.jpg');
@@ -17,63 +13,61 @@
 }
 .titlebg1
 {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 1rem;
     height: 59vh;
     width: 105vh;
     background-image: url('./shinobu.jpg');
     background-size: 100%; 
     max-width: 100%;
-    max-height: 100%;  
-  
+    max-height: 100%; 
+    
 }
-
 .row1{
     display: flex;
     flex-wrap: wrap;
 }
 .head
 {
-   padding-top: 30px;
-    font-family: sans-serif;
+   padding: 30px;
+   padding-top: 50px;
+   font-family: sans-serif;
     color: white;
     font-size: 66px;  
 }
-
-.para1,.para2
-{
-    color: rgb(219, 76, 121);
+.texts{
+    text-decoration: none;
+}
+.para1
+{    
+    color: blue;
+    margin: 10px;
+    text-align: right;
     font-weight: 800;
-    font-size: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
     font-style: italic;
-    position: absolute;
-    padding:2px;
-    background-color: none;
-    top: 72px; right: 5px; text-align: right;
+   
 }
-.span1
-{
-    color: rgb(241, 230, 78);
-}
+
 @keyframes xyz
 {
-   0% { background-color: rgb(157, 220, 94);}
-   25%{ background-color: rgb(69, 196, 196);}
-   50% { background-color: rgb(46, 224, 82);}
-   100%{ background-color: rgb(34, 191, 138);}
+   0% { background-color:darkorchid);}
+   25%{ background-color:plum;}
+   50% { background-color: mediumorchid;}
+   100%{ background-color: darkviolet;}
 
 }
 .para2{
-    top: 150px; right: 15px;
+    margin: 20px;
+    margin-left: 320px;
+    font-weight: 800;
     font-size: 40px;
-    margin-top: 29px;
-    padding: 2px;
-    background-color: chartreuse;
-    color: whitesmoke;
-    border-radius: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-color: blueviolet ;
+    color: white;
+    border-radius: 50px;
     animation-name: xyz;
     animation-duration: 2s;
-    animation-iteration-count: 50;
+    animation-iteration-count: 500;
 }
