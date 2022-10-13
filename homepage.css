@@ -9,18 +9,17 @@ body{
 .images{
     display: flex;
     background: transparent;
-   
    background-size: 100%;
    margin: 20px;
 }
 /*right part*/
 .head
 {
-    padding: 30px;
-    padding-top: 50px;
+    padding: 20px;
+    padding-top: 35px;
     font-family: sans-serif;
     color: white;
-    font-size: 46px;  
+    font-size: 40px;  
 }
 .right{
   
@@ -35,28 +34,28 @@ body{
 }
 .para1
 {    
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     color: lightskyblue;
     margin-top: 20px;
     margin-right: 40px;
     text-align: right;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
     font-style: italic;
    
 }
 .create{
    margin-left: 175px;
- 
+    
     width: 50%;
     
 }
 .para2{
     background-position: center;
-  
-   padding: 10px;
+  text-align: center;
+    padding: 5px;
 
     
     width: 100%;
