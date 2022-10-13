@@ -29,7 +29,8 @@ body{
     flex-wrap: wrap;
 }
 .footer{
-    background: pink;
+    background: #000;
+    opacity: 0.9;
     padding: 15px ;
     padding-bottom: 0;
 }
@@ -70,13 +71,13 @@ body{
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
-    color: black;
+    color: #fff;
     display: block;
     text-transform: capitalize;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: brown;
+    color: rgb(184, 179, 124);
     padding-left: 10px;
 }
 
@@ -86,7 +87,7 @@ body{
     display: inline-block;
     padding-top: 23px;
     width: 70px;
-    background-color: pink;
+    background-color: rgb(202, 187, 223);
     text-align: center;
     height: 60px;
     border-radius: 50%;
@@ -95,7 +96,7 @@ body{
 }
 .footer-col .sociallinks a:hover{
    color: blue;
-   background-color: skyblue;
+   background-color: rgb(224, 228, 193);
 }
 @media(max-width:767){
     .footer-col{
