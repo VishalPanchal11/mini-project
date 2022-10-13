@@ -1,10 +1,3 @@
-/*main html body*/
-body{
-    background-image: url('./galaxy.jpg');
-    background-size: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 /*all fonts*/
 html{
@@ -62,7 +55,7 @@ html{
 /*searchbar*/
 .navbar input{
     margin-top: 10px;
-    color: white;
+    color: black;
     font-size: medium;
     border: 2px solid white;
     border-radius: 15px;

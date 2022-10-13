@@ -1,3 +1,10 @@
+/*main html body*/
+body{
+    background-image: url('./galaxy.jpg');
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
 /*main background*/
 .images{
     display: flex;
@@ -58,7 +65,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-style: italic;
    
-    background-color: white ;
+    background-color: rgb(200, 200, 200) ;
     color: black;
     border-radius: 50px;
    
@@ -71,9 +78,9 @@
 }
 @keyframes xyz
 {
-   25% { background-color:rgb(151, 151, 151);}
-   25%{ background-color: rgb(186, 186, 186);}
-   50% { background-color: rgb(128, 128, 128);}
-   50%{ background-color: rgb(217, 216, 216);}
+   25% { background-color:rgb(110, 110, 110);}
+   25%{ background-color: rgb(140, 140, 140);}
+   50% { background-color: rgb(80, 80, 80);}
+   50%{ background-color: rgb(170, 170,170);}
 
 }
