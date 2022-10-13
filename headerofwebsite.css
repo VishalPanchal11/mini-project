@@ -1,6 +1,7 @@
 /*main html body*/
 body{
-    background: whitesmoke;
+    background-image: url('./galaxy.jpg');
+    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +12,8 @@ html{
 }
 .header
 {   
-    background: pink;
+    color: white;
+    background: black;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -24,6 +26,7 @@ html{
 
 /*website name*/
 .heading{
+    margin-top: 20px;
     font-size: 35px; 
 } 
 
@@ -36,15 +39,16 @@ html{
 
 /*list items*/
 .navbar ul li{
+    margin-top: 10px;
     padding: 10px;
 }
 .navbar ul li:hover{
-    background: lightsalmon;
+    background: grey;
 }
 
 /*list item text links*/
 .navbar ul li a {
-    color: black;
+    color: white;
     font-size: large;
     text-decoration:none;
     font-size: 20px;
@@ -52,14 +56,15 @@ html{
     transition: all 0.3s;
 }
 .navbar ul li a:hover{
-    color: brown;
+    color: white;
 }
 
 /*searchbar*/
 .navbar input{
-    color: black;
+    margin-top: 10px;
+    color: white;
     font-size: medium;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 15px;
     padding-top:5px;
     width: 250px;
@@ -83,7 +88,7 @@ html{
     display: block;
     margin-top:14px;
  
-    background: pink;
+    background: black;
     position: absolute;
 }
 .navbar ul li:hover .categories ul{
@@ -91,13 +96,15 @@ html{
 
 }
 .navbar ul li:hover .categories ul li{
+  
     width: 95px;
     text-align: center;
     padding: 10px;
 }
 
 .categories ul li a:hover{
-    color: brown;
+    background: grey;
+    color: white;
 }
 
 
@@ -114,7 +121,7 @@ html{
     display: block;
     margin-top:14px;
     margin-left: -17px;
-    background: pink;
+    background: black;
     position: absolute;
 }
 
@@ -125,5 +132,6 @@ html{
 }
 
 .profile ul li a:hover{
-    color: brown;
+    color: white;
+    background: grey;
 }

@@ -1,45 +1,38 @@
-.titlebg
-{
-    height: 59vh;
-    width: 104vh;
-    background-image: url('./purple.jpg');
-    background-size: 100%; 
-    max-width: 100%;
-    max-height: 100%;  
-   
-}
-.welcome{
-    margin: 0px;
-}
-.titlebg1
-{
-    height: 59vh;
-    width: 105vh;
-    background-image: url('./shinobu.jpg');
-    background-size: 100%; 
-    max-width: 100%;
-    max-height: 100%; 
-    
-}
-.row1{
+/*main background*/
+.images{
     display: flex;
-    flex-wrap: wrap;
+    background: transparent;
+   
+   background-size: 100%;
+   margin: 20px;
 }
+/*right part*/
 .head
 {
-   padding: 30px;
-   padding-top: 50px;
-   font-family: sans-serif;
+    padding: 30px;
+    padding-top: 50px;
+    font-family: sans-serif;
     color: white;
-    font-size: 66px;  
+    font-size: 46px;  
 }
-.texts{
-    text-decoration: none;
+.right{
+  
+    width:104vh;
+}
+/*left part*/
+.left{
+
+ 
+   width: 104vh;
+    
 }
 .para1
 {    
-    color: blue;
-    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: lightskyblue;
+    margin-top: 20px;
+    margin-right: 40px;
     text-align: right;
     font-weight: 800;
     font-size: 50px;
@@ -47,27 +40,40 @@
     font-style: italic;
    
 }
-
-@keyframes xyz
-{
-   0% { background-color:darkorchid;}
-   25%{ background-color:plum;}
-   50% { background-color: mediumorchid;}
-   100%{ background-color: darkviolet;}
-
+.create{
+   margin-left: 175px;
+ 
+    width: 50%;
+    
 }
 .para2{
-    margin: 20px;
-    margin-left: 320px;
+    background-position: center;
+  
+   padding: 10px;
+
+    
+    width: 100%;
     font-weight: 800;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-style: italic;
-    padding: 10px;
-    background-color: blueviolet ;
-    color: white;
+   
+    background-color: white ;
+    color: black;
     border-radius: 50px;
+   
     animation-name: xyz;
     animation-duration: 2s;
     animation-iteration-count: 500;
+}
+.texts{
+    text-decoration: none;
+}
+@keyframes xyz
+{
+   25% { background-color:rgb(151, 151, 151);}
+   25%{ background-color: rgb(186, 186, 186);}
+   50% { background-color: rgb(128, 128, 128);}
+   50%{ background-color: rgb(217, 216, 216);}
+
 }
