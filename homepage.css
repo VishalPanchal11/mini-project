@@ -83,3 +83,71 @@ body{
    50%{ background-color: rgb(170, 170,170);}
 
 }
+
+
+/*slideshow*/
+
+.frame{
+    margin-left: 65px;
+    border: 10px black;overflow: hidden;
+    height: 321px;
+    width: 1085px;
+    border-radius: 15px;
+}
+.img{
+    height: 321px;
+    width: 1085px;
+}
+.slides{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite alternate;
+   
+}
+
+@-webkit-keyframes slide{
+    0%{transform: translate(0%);}
+    25%{transform: translate(0%);}
+    30%{transform: translate(-100%);}
+    50%{transform: translate(-100%);}
+    55%{transform: translate(-200%);}
+    75%{transform: translate(-200%);}
+    80%{transform: translate(-300%);}
+    100%{transform: translate(-300%);}
+}
+/*
+slideshow navigation
+
+.nav{
+    
+ bottom: 20px;
+ left: 50%;
+ transform:translate(-50%);
+display: flex;
+}
+.btn{
+width: 50px;
+height: 10px;
+border: 2px solid white;
+border-radius: 1px;
+cursor: pointer;
+transition: 0.4s;
+}
+.bar:hover{
+    background: white;
+}
+input[name='r']{
+    visibility: hidden;
+}
+#r1:checked ~ .s1{
+    margin-left: 0%;
+}
+#r2:checked ~ .s2{
+    margin-left: 25%;
+}
+#r3:checked ~ .s3{
+    margin-left: 50%;
+}
+#r4:checked ~ .s4{
+    margin-left: 75%;
+}*/
