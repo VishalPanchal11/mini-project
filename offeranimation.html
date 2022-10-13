@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        offersathomepage
+    </title>
+    <style>
+        body{
+            background-image: url(./images/background.jpg);
+        }
+        .maindiv
+        {
+            width: 70%;
+            height: 400px;
+            background-image: url(./images/image1.jpg.png);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            animation: x 18s infinite linear;
+            /* infinite-timing-function: linear */
+            box-shadow: 1px 2px 10px 5px rgb(237, 252, 255);
+        }
+        @keyframes x{
+            0%{background-image: url(./images/image1.jpg.png);}
+            15%{background-image: url(./images/image2.jpg.png);}
+            20%{background-image: url(./images/image3.jpg.png);}
+            30%{background-image: url(./images/image4.jpg.png);}
+        }
+    </style>
+</head>
+<body>
+       <div class="maindiv">
+
+       </div>
+
+
+</body>
+</html>
