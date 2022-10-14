@@ -99,6 +99,12 @@ body{
     cursor: pointer;
     background: var(--color-primary);  
     margin-top: 1rem;
+    transition: 1.5s;
+}
+.form__button :hover
+{ 
+    transform: scale(2);
+    z-index: 2;
 }
 
 .form__button :hover
