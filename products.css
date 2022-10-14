@@ -7,10 +7,7 @@ body{
     background-color: transparent;
     margin: 0;
 }
-div {
-    background-color: transparent;
-    padding: 20px;    
-  }
+
     
 .product-title
 {
@@ -21,7 +18,7 @@ div {
    text-transform: capitalize;
    color: violet;
    position: relative;
-   margin: 0 auto 80px;
+   margin: 0 auto 50px;
    line-height: 60px;
 }
 .product-title:hover
@@ -49,7 +46,7 @@ div {
     font-family: 'Times New Roman', Times, serif;
     column-gap: 2px; 
     color:black; 
-    
+   
 }
 .col-3
 {
@@ -60,6 +57,7 @@ div {
     width: 30%;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     display: inline-block;
     transition: 1.5s;
 }
@@ -119,6 +117,7 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     display: flex;
+    margin-top: 40px;
 }
 .text-1:hover
 {
@@ -130,10 +129,10 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 35px;
     
 }
-.row
+.row1
 {
     display: flex;
     align-items: center;
