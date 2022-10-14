@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap;
 }
 .footer{
-    background: pink;
+    background: black;
     padding: 15px ;
     padding-bottom: 0;
 }
@@ -37,7 +37,7 @@ body{
 /*company , help*/
 .footer-col h4{
     font-size: 18px;
-    color: black;
+    color: white;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
@@ -48,7 +48,7 @@ body{
     position: absolute;
     bottom: -5px;
     left: -5px;
-    background-color: gray;
+    background-color: rgb(80, 80, 80);
     height: 2px;
     box-sizing: border-box;
     width: 100px;
@@ -70,13 +70,13 @@ body{
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
-    color: black;
+    color: white;
     display: block;
     text-transform: capitalize;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: brown;
+    color: rgb(180, 180, 180);
     padding-left: 10px;
 }
 
@@ -86,7 +86,7 @@ body{
     display: inline-block;
     padding-top: 23px;
     width: 70px;
-    background-color: pink;
+    background-color: rgb(200, 200, 200);
     text-align: center;
     height: 60px;
     border-radius: 50%;
@@ -95,7 +95,7 @@ body{
 }
 .footer-col .sociallinks a:hover{
    color: blue;
-   background-color: skyblue;
+   background-color: white;
 }
 @media(max-width:767){
     .footer-col{

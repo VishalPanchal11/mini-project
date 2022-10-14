@@ -83,3 +83,64 @@ body{
    50%{ background-color: rgb(170, 170,170);}
 
 }
+
+
+/*slideshow*/
+.slideshow{
+    margin-bottom: 70px;
+}
+.frame{
+    margin-left: 65px;
+    border: 10px black;overflow: hidden;
+    height: 321px;
+    width: 1085px;
+    border-radius: 15px;
+}
+.img{
+    height: 321px;
+    width: 1085px;
+}
+.slides{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite alternate;
+   
+}
+
+@-webkit-keyframes slide{
+    background-position:inherit;
+    0%{transform: translate(0%);}
+    25%{transform: translate(0%);}
+    30%{transform: translate(-100%);}
+    50%{transform: translate(-100%);}
+    55%{transform: translate(-200%);}
+    75%{transform: translate(-200%);}
+    80%{transform: translate(-300%);}
+    100%{transform: translate(-300%);}
+}
+
+/*featured products*/
+.featured{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 255, 145);
+    
+}
+.featuredcontainer{
+    margin-top: 0px;
+   
+   
+}
+.products img{
+    margin:30px;
+    width: 301px;
+}
+.rows{
+    display: flex;
+    min-width: 250px;
+}
+.small-container{
+  
+    max-width: 1080px;
+    margin: auto;
+}
