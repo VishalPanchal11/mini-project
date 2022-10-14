@@ -86,7 +86,9 @@ body{
 
 
 /*slideshow*/
-
+.slideshow{
+    margin-bottom: 70px;
+}
 .frame{
     margin-left: 65px;
     border: 10px black;overflow: hidden;
@@ -106,6 +108,7 @@ body{
 }
 
 @-webkit-keyframes slide{
+    background-position:inherit;
     0%{transform: translate(0%);}
     25%{transform: translate(0%);}
     30%{transform: translate(-100%);}
@@ -115,39 +118,29 @@ body{
     80%{transform: translate(-300%);}
     100%{transform: translate(-300%);}
 }
-/*
-slideshow navigation
 
-.nav{
+/*featured products*/
+.featured{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 255, 145);
     
- bottom: 20px;
- left: 50%;
- transform:translate(-50%);
-display: flex;
 }
-.btn{
-width: 50px;
-height: 10px;
-border: 2px solid white;
-border-radius: 1px;
-cursor: pointer;
-transition: 0.4s;
+.featuredcontainer{
+    margin-top: 0px;
+   
+   
 }
-.bar:hover{
-    background: white;
+.products img{
+    margin:30px;
+    width: 301px;
 }
-input[name='r']{
-    visibility: hidden;
+.rows{
+    display: flex;
+    min-width: 250px;
 }
-#r1:checked ~ .s1{
-    margin-left: 0%;
+.small-container{
+  
+    max-width: 1080px;
+    margin: auto;
 }
-#r2:checked ~ .s2{
-    margin-left: 25%;
-}
-#r3:checked ~ .s3{
-    margin-left: 50%;
-}
-#r4:checked ~ .s4{
-    margin-left: 75%;
-}*/
