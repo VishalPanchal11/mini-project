@@ -9,15 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="homepage.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="search.css">
 </head>
 <body>
         <header class="header">
             <h1 class="heading">Website Name</h1>
             <nav class="navbar">
                 <ul class="navbar_list">
-                    <div class="search">
+                    <!-- <div class="search">
                     <input type="text" id="search" name="search" placeholder="SEARCH MERCHANDISE">
-                    </div>
+                    <i class="material-icons instant-search__icon">search</i>
+                    </div> -->
+
+                    <div id="searchUsers" class="instant-search">
+                        <div class="instant-search__input-container">
+                          <input class="instant-search__input" type="text" spellcheck="false" placeholder="Search Merchandise">
+                          <i class="material-icons instant-search__icon">search</i>
+                        </div>
+                      </div>
+
                     <li> <a class="options" href="#" target="_blank">HOME</a></li>
                     <li> <a class="options" href="./products.html" target="_blank">CATEGORIES</a>
                         <div class="categories">
@@ -47,6 +57,7 @@
                 </ul>
             </nav>
         </header>
+        <script src="./search.js"></script>
 
 <main>
     <section>
@@ -84,7 +95,7 @@
     <div class="featured"><h1>Featured Products</h1></div>
     <div class="small-container">
     <div class="rows">
-        <div class="products"><img src="./tshirts.jpeg"></div>
+        <div class="products"><img src="./tshirt 2.1.jpeg"></div>
         <div class="products"><img src=""></div>
         <div class="products"><img src="./skin.jpg"></div>
     </div>
@@ -124,6 +135,7 @@
                 </div>
             </div>
         </footer>
+        
 </body>
 </html>
  
