@@ -8,10 +8,12 @@
     font-family: sans-serif;
   }
   
+/*   
   .instant-search,
-  .instant-search * {
-    transition background: box-shadow: 0.15s;;
-  }
+  .instant-search  {
+  
+    transition background box: ;
+  } */
   
   .instant-search:focus-within {
     box-shadow: 0 0 3px white(0, 0, 0, 0.2);
