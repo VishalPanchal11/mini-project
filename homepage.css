@@ -84,6 +84,44 @@ body{
 
 }
 
+/*ibelong*/
+.ibelong{
+    background: rgb(30, 30, 30);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.r{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 0;
+}
+.col{
+   
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col img{
+  
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col h1{
+  
+    color: blueviolet;
+   
+    font-size: 40px;
+    line-height: 60px;
+   
+}
+.col p{
+    color: deeppink;
+    font-size: 40px;
+    line-height: 40px;
+}
 
 /*slideshow*/
 
