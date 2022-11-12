@@ -86,7 +86,9 @@ body{
 
 
 /*slideshow*/
+
 .slideshow{
+
     margin-bottom: 70px;
 }
 .frame{
@@ -123,12 +125,12 @@ body{
 .featured{
     text-align: center;
     font-size: 30px;
-    color: rgb(0, 255, 145);
+    color: pink;
     
 }
 .featuredcontainer{
     margin-top: 0px;
-   
+   margin-bottom: 100px;
    
 }
 .products img{

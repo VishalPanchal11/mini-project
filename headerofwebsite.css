@@ -1,5 +1,7 @@
 
-
+.space{
+    height: 50px;
+}
 /*all fonts*/
 html{
     font-size: 62.5%;
@@ -12,8 +14,8 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
-    position:sticky;
+    width: 100%;
+    height: 4rem;
     top: 0;
     left: 0;
 }
@@ -71,9 +73,11 @@ html{
 
 /*categories dropdown menu*/
 .categories{
+    
     display: none;
 }
 .categories ul{
+    
     list-style-type: none;
     padding: 10px;
 }
@@ -86,11 +90,12 @@ html{
     position: absolute;
 }
 .navbar ul li:hover .categories ul{
+    background: black;
     display:block;
-
+    position: absolute;
 }
 .navbar ul li:hover .categories ul li{
-  
+    
     width: 95px;
     text-align: center;
     padding: 10px;
