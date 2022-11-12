@@ -7,7 +7,9 @@ body{
     background-color: transparent;
     margin: 0;
 }
-
+.space{
+    height: 50px;
+}
     
 .product-title
 {
