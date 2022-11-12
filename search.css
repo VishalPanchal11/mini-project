@@ -10,7 +10,7 @@
   
   .instant-search,
   .instant-search * {
-    transition: background 0.15s, box-shadow 0.15s;
+    transition background: box-shadow: 0.15s;;
   }
   
   .instant-search:focus-within {
