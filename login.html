@@ -10,10 +10,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="headerofwebsite.css">
 </head>
 <body>
+    <div>
+        <header class="header">
+
+        <h1  class="heading">iBelong</h1>
+     
+
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <!-- <div class="search">
+                    <input type="text" id="search" name="search" placeholder="SEARCH MERCHANDISE">
+                    <i class="material-icons instant-search__icon">search</i>
+                    </div> -->
+
+                    <div id="searchUsers" class="instant-search">
+                        <div class="instant-search__input-container">
+                          <input class="instant-search__input" type="text" spellcheck="false" placeholder="Search Merchandise">
+                          <!-- <i class="material-icons instant-search__icon">search</i> -->
+                        </div>
+                      </div>
+
+                    <li> <a class="options" href="#" target="_blank">HOME</a></li>
+                    <li> <a class="options" href="./products.html" target="_blank">CATEGORIES</a>
+                        <div class="categories">
+                            <ul>
+                                <li><a href="#" target="_blank">Men</a></li>
+                                <li><a href="#" target="_blank">Women</a></li>
+                                <li><a href="#" target="_blank">Laptop Skin</a></li>
+                                <li><a href="#" target="_blank">Phone case</a></li>
+                                <li><a href="#" target="_blank">Mugs</a></li>
+                                <li><a href="#" target="_blank">Notebook</a></li>
+                                <li><a href="#" target="_blank">Bookmark</a></li>
+                                <!-- <li><a href="#" target="_blank">Backpacks</a></li>   -->
+                            </ul>
+                        </div>
+                    </li>    
+                    <li> <a class="options" href="./pleaselogin.html" target="_blank">PROFILE</a>
+                        <div class="profile">
+                            <ul>
+                                <li><a href="./pleaselogin.html" target="_blank">My Account</a></li>
+                                <li><a href="./pleaselogin.html" target="_blank">My Orders</a></li>
+                                <li><a href="./pleaselogin.html" target="_blank">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a class="options" href="#" target="_blank">BAG</a></li>
+                    <li> <a class="options" href="#" target="_blank">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="./search.js"></script>
+
+
+    <!-- login html content  -->
+
     <div class="container">
-        <form action="" class="form form--hidden" id="login" method="post">
+        <form action="registration.php" onsubmit="return validation()" class="form form--hidden" id="login" method="post">
           
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
@@ -33,13 +88,13 @@
             </p>
 
             <p class="form__text">
-                <a  class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+                <a  class="form__link" href="registration.php" id="linkCreateAccount">Don't have an account? Create account</a>
             </p>
 
         </form>
 
-        <form  class="form" id="createAccount">
-            <!-- the first child of the form -->
+        <form   onsubmit = "return validation()" class="form" id="createAccount" method="post">
+            
             <h1 class="form__title">New Account</h1>
             <div class="form__message form__message--error"></div>
 
@@ -68,9 +123,29 @@
             </p>
 
         </form>
-    </div>
+    </div> 
+<!-- 
+     <div class = "frm">   -->
+        <!-- <h1>Please Login</h1>  
+        <form name="f1" action = "registration.php" onsubmit = "return validation()" method = "POST">  
+            <p class="row1">  
+                <label> UserName: </label>  
+                <input type = "text" id ="user" name  = "user" />  
+            </p>  
+            <p class="row1">  
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" />  
+            </p>  
+            <p class="row1">     
+                <input type =  "submit" id = "btn" value = "Submit" />  
+            </p>  
+        </form>  
+    </div>   -->
+  
+
+    <script src="./login.js"></script> 
 
 
-    <script src="./login.js"></script>
+    
 </body>
 </html>
