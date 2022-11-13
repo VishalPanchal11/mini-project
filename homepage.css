@@ -145,11 +145,11 @@ body{
     width: 100%;
     display: flex;
     animation: slide 16s infinite alternate;
-   
+  
 }
 
 @-webkit-keyframes slide{
-    background-position:inherit;
+    background-position: inherit;
     0%{transform: translate(0%);}
     25%{transform: translate(0%);}
     30%{transform: translate(-100%);}
@@ -196,3 +196,22 @@ body{
     text-align: center;
     font-size: medium;
 }
+
+.chose
+{
+    display: inline-block;
+    width: 272px;
+
+}
+.chose2
+{
+    display: inline-block;
+    color: antiquewhite;
+    font-weight: 50;
+    font-size: 5rem;
+    padding-left: 79px;
+    margin-top: 75px;
+    justify-content: center;
+ 
+}
+
