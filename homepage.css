@@ -86,6 +86,7 @@ body{
 
 /*ibelong*/
 .ibelong{
+    border-radius: 30px;
     background: rgb(30, 30, 30);
     margin-left: 50px;
     margin-right: 50px;
@@ -161,14 +162,20 @@ body{
 
 /*featured products*/
 .featured{
+  padding-top: 20px;
     text-align: center;
     font-size: 30px;
-    color: pink;
+    color: rgb(255, 0, 43);
+   
     
 }
 .featuredcontainer{
-    margin-top: 0px;
-   margin-bottom: 100px;
+    background: pink;
+   border-radius: 40px;
+   margin: 50px;
+   padding-bottom: 30px;
+   
+    
    
 }
 .products img{
@@ -180,7 +187,12 @@ body{
     min-width: 250px;
 }
 .small-container{
-  
+   
     max-width: 1080px;
     margin: auto;
+}
+
+.txtrating{
+    text-align: center;
+    font-size: medium;
 }

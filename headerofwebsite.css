@@ -84,7 +84,7 @@ html{
 
 .navbar ul li:hover .categories{
     display: block;
-    margin-top:14px;
+    margin-top:10px;
  
     background: black;
     position: absolute;
@@ -118,7 +118,7 @@ html{
 
 .navbar ul li:hover .profile{
     display: block;
-    margin-top:14px;
+    margin-top:10px;
     margin-left: -17px;
     background: black;
     position: absolute;
