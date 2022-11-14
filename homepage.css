@@ -111,7 +111,7 @@ body{
     padding: 50px 0;
 }
 .col h1{
-  
+    margin-left: 27%;
     color: blueviolet;
    
     font-size: 40px;
@@ -197,21 +197,40 @@ body{
     font-size: medium;
 }
 
-.chose
-{
-    display: inline-block;
-    width: 272px;
-
+.y{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    margin-left: 35px;
+    margin-top: 0;
 }
-.chose2
-{
-    display: inline-block;
-    color: antiquewhite;
-    font-weight: 50;
-    font-size: 5rem;
-    padding-left: 79px;
-    margin-top: 75px;
-    justify-content: center;
- 
+.colwhy p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 25px;
 }
-
+.colwhy{
+   
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.why{
+    border-radius: 15px;
+    background: rgb(180, 180, 180);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+  
+}
+.colwhy img{
+  max-width: 100%;
+}
+.colwhy h1{
+    color: rgb(48, 13, 80);
+    margin-left: 18%;
+    font-size: 40px;
+    line-height: 60px;
+   
+}
