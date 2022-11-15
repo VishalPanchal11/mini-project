@@ -1,6 +1,7 @@
 <?php
 //This script will handle login
 session_start();
+echo "<h2>PHP is Fun!</h2>";
 
 // check if the user is already logged in
 if(isset($_SESSION['username']))
