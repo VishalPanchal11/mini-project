@@ -53,6 +53,7 @@ if(empty($err))
                             //Redirect user to welcome page
                             header("location: welcome.php");
                             
+                            
                         }
                     }
 
