@@ -58,23 +58,66 @@ function validation()
 {   
     var id=document.form["createAccount"]["username"].value; 
     alert("User Name and Password fields are empty",id);   
-    // var ps=document.f1.pass.value;  
-    // if(id.length=="" && ps.length=="") 
-    // {  
-    //     alert("User Name and Password fields are empty");  
-    //     return false;  
-    // }  
-    // else  
-    // {  
-    //     if(id.length=="") 
-    //     {  
-    //         alert("User Name is empty");  
-    //         return false;  
-    //     }   
-    //     if (ps.length=="") {  
-    //     alert("Password field is empty");  
-    //     return false;  
-    //     }  
-    // }                             
+    var ps=document.f1.pass.value;  
+    if(id.length=="" && ps.length=="") 
+    {  
+        alert("User Name and Password fields are empty");  
+        return false;  
+    }  
+    else  
+    {  
+        if(id.length=="") 
+        {  
+            alert("User Name is empty");  
+            return false;  
+        }   
+        if (ps.length=="") {  
+        alert("Password field is empty");  
+        return false;  
+        }  
+    }                             
 }  
 
+var password = document.getElementById("password")
+, confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+if(password.value != confirm_password.value) {
+  confirm_password.setCustomValidity("Passwords Don't Match");
+} else {
+  confirm_password.setCustomValidity('');
+}
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+
+function login()
+	{
+		var uname = document.getElementById("email").value;
+		var pwd = document.getElementById("password").value;
+		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		if(uname =='')
+		{
+			alert("please enter user name.");
+		}
+		else if(pwd=='')
+		{
+        	alert("enter the password");
+		}
+		else if(!filter.test(uname))
+		{
+			alert("Enter valid email id.");
+		}
+		else if(pwd.length < 6 || pwd.length > 6)
+		{
+			alert("Password min and max length is 6.");
+		}
+		else
+		{
+	alert('Thank You for Login & You are Redirecting to iBelong Website');
+  //Redirecting to other page or webste code or you can set your own html page.
+       window.location = "./index.html";
+			}
+	}
+	
